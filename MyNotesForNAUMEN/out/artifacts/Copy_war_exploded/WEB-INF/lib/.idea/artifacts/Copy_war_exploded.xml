@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Copy:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Copy_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Copy/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Copy" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="mysql-connector-java-5.1.47" />
+          <element id="library" level="application" name="javax.servlet.jsp.jstl-1.2.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

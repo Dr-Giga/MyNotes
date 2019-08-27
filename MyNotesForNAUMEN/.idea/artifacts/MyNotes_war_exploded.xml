@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyNotes:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyNotes_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="MyNotes/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyNotes" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="mysql-connector-java-5.1.47" />
+          <element id="library" level="application" name="javax.servlet.jsp.jstl-1.2.4" />
+          <element id="library" level="application" name="mysql-connector-java-5.1.48" />
+          <element id="library" level="application" name="javax.servlet.jsp.jstl-api-1.2.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
